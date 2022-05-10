@@ -1,0 +1,102 @@
+$bl: #000000;
+$pr: #AE13E6;
+$zl: rgba(19, 230, 174, 0.7);
+$he: #E1D3E6;
+
+$ruler: 16px;
+$color-red: #AE1100;
+$color-bg: #EBECF0;
+$color-shadow: #BABECC;
+$color-white: #FFF;
+@media screen and(max-width:1300px){
+
+    .product{
+        h3{
+            margin: 3% 0% 3% 39%;
+        }
+        div{
+            width: 200px ;
+            height: 210px ;
+            margin: 3% 0% 2% 7%;
+        }
+        .enc{
+            width: 30%;
+        }
+    }
+    .menu h1 {
+        color: $pr;
+        font-size: 25px;}
+     .menu1 a{font-size:20px ;}
+      .zveite-menu {
+        margin: 15% 15% 0% 0%;
+        font-size: 140%;
+      }
+    
+}
+@media screen and(max-width:1050px){
+    .product{
+        h3{
+            margin: 3% 0% 3% 39%;
+        }
+        div{
+            width: 180px ;
+            height: 190px ;
+            margin: 3% 0% 2% 7%;
+        }
+        .enc{
+            width: 40%;
+        }
+    }
+    .hover-text{
+   figure{
+        
+        p{
+            font-size: 55%;
+        }
+    }
+    button{
+        font-size: 12px;
+    }
+}
+}
+@media screen and(max-width:1050px){
+
+    .product{
+        margin: 3% 0% 0% 7%;
+        h3{
+            margin: 3% 0% 3% 41%;
+        }
+        div{
+            width: 150px ;
+            height: 160px ;
+          
+        }
+        .enc{
+            width: 40%;
+        }
+    }
+    .zveite-menu {
+        margin: 15% 5% 0% 5%;
+        font-size: 140%;
+      }
+
+}
+@media screen and(max-width:842px){
+
+    .menu h1 {
+        color: $pr;
+        font-size: 20px;}
+    .product{
+       
+        div{
+            width: 210px ;
+            height: 250px ;
+            margin: 3% 0% 2% 7%;
+        }
+        
+    }
+    .menu1 span{
+      display: none;
+    }
+       
+    }

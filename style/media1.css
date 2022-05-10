@@ -1,0 +1,80 @@
+@media screen and (max-width: 1300px) {
+  .product h3 {
+    margin: 3% 0% 3% 39%;
+  }
+  .product div {
+    width: 200px;
+    height: 210px;
+    margin: 3% 0% 2% 7%;
+  }
+  .product .enc {
+    width: 30%;
+  }
+  .menu h1 {
+    color: #AE13E6;
+    font-size: 25px;
+  }
+  .menu1 a {
+    font-size: 20px;
+  }
+  .zveite-menu {
+    margin: 15% 15% 0% 0%;
+    font-size: 140%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .product h3 {
+    margin: 3% 0% 3% 39%;
+  }
+  .product div {
+    width: 180px;
+    height: 190px;
+    margin: 3% 0% 2% 7%;
+  }
+  .product .enc {
+    width: 40%;
+  }
+  .hover-text figure p {
+    font-size: 55%;
+  }
+  .hover-text button {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .product {
+    margin: 3% 0% 0% 7%;
+  }
+  .product h3 {
+    margin: 3% 0% 3% 41%;
+  }
+  .product div {
+    width: 150px;
+    height: 160px;
+  }
+  .product .enc {
+    width: 40%;
+  }
+  .zveite-menu {
+    margin: 15% 5% 0% 5%;
+    font-size: 140%;
+  }
+}
+
+@media screen and (max-width: 842px) {
+  .menu h1 {
+    color: #AE13E6;
+    font-size: 20px;
+  }
+  .product div {
+    width: 210px;
+    height: 250px;
+    margin: 3% 0% 2% 7%;
+  }
+  .menu1 span {
+    display: none;
+  }
+}
+/*# sourceMappingURL=media1.css.map */
