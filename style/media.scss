@@ -123,44 +123,34 @@ div{
   }
 }
 @media screen and (max-width:970px){
-    body{
-        display: block;
+   body{
+       grid-template-columns: 29% 42% 29%;
+   }
+    .wrapp{
+        height: 150px;
+        width: 300px;
+        margin-left: 5% ;
     }
     .logo{
-        width: 30%;
-        height: 30%;
+        width: 60%;
+        height: 60%;
     }
     h1{
-        font-size: 5px;
-        margin-left: 3%;
-        float: left;
+        display: none;
     }
-    .neuen {
-        h3{
-        margin-left: 10%;
-    }
-    .zveite-menu {
-        margin: 15% 0% 0% 10%;
-        font-size: 130%;
+    .zmenu {
+        display: none;
       }
-         .menu1{
-            font-size:80%;
-          }
-    div{
-        margin: 5% 0% -10% -20%;
-        .effect-text{
-            width: 70%;
-            height: 70%;
-          }
-    }
-    }
-    .popular{
-        margin: 8% 40% 0% 40%;
-     div{
-    width: 190px;
-    height: 180px;
-    margin-bottom: 10%;
-    }
+
+    .popular{  
+     div
+     {
+     
+    width: 35%;
+    height: 35%;
+    margin: 2% 0% 0% 3%;
+     }
+   
     h3{
     margin: 0% 0% 10% 25%;
     width: 60%;
@@ -169,7 +159,20 @@ div{
 }
 .neuen {
 
-    margin: 0% 0% 0% 20%;
+    margin: 0% 0% 0% 0%;
+    div{
+        margin: 0% 0% 0% 0%;
+        .effect-text{
+            width: 60%;
+            height: 60%;
+
+            figcaption{
+                p{
+                    font-size: 10px;
+                }
+            }
+          }
+    }
     .hover-text{
         margin-left: 3%;
         display: inline-block;
@@ -182,17 +185,57 @@ div{
 }
 .menu1 span{
     display: none;
-   
+    
   }
-.footer{
-  
-    margin-top: 7%;
-    transform: rotate(-90deg);
-}
 }
 
 @media screen and (max-width:600px){
+    body{
+        display: block;
+    }
+    .logo{
+        width: 30%;
+        height: 30%;
+    }
+    .popular{
+        div{
+        width:140px;
+        }
+        h3{
+            width: 40%;
+            font-size: 16px;
+        }
+    }
+
+    .neuen {
+        margin: 5% 0% 0% 5%;
+        h3{
+
+        font-size: 16px;
+        margin-left: 33%;
+    }
     div{
-        width:1px;
-    }  
+        margin: 5% 0% 0% 10%;
+        .effect-text{
+            width: 70%;
+            height: 70%;
+          }
+    }
+    }
+
+    .wrapp{
+        width: 320px;
+        height: 170px;
+        float: right;
+        margin: -40% 18% 0% 0%;
+    }
+
+}
+
+@media screen and(max-width:425) {
+
+    .wrapp{
+        width: 100px;
+        height: 120px;
+    }
 }

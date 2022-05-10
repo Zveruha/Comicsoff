@@ -65,7 +65,9 @@ a{
     text-align: center;
   }
   
-
+.zmenu{
+  display: block;
+}
 ul > li > a:hover {
     color: $pr;
   }

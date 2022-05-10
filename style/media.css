@@ -101,48 +101,35 @@
     height: 70%;
   }
   .zveite-menu {
-    margin: 15% 10% 0% 0%;
+    margin: 15% 0% 0% 10%;
     font-size: 140%;
   }
 }
 
 @media screen and (max-width: 970px) {
   body {
-    display: block;
+    -ms-grid-columns: 29% 42% 29%;
+        grid-template-columns: 29% 42% 29%;
+  }
+  .wrapp {
+    height: 150px;
+    width: 300px;
+    margin-left: 5%;
   }
   .logo {
-    width: 30%;
-    height: 30%;
+    width: 60%;
+    height: 60%;
   }
   h1 {
-    font-size: 5px;
-    margin-left: 3%;
-    float: left;
+    display: none;
   }
-  .neuen h3 {
-    margin-left: 10%;
-  }
-  .neuen .zveite-menu {
-    margin: 15% 0% 0% 10%;
-    font-size: 130%;
-  }
-  .neuen .menu1 {
-    font-size: 80%;
-  }
-  .neuen div {
-    margin: 5% 0% -10% -20%;
-  }
-  .neuen div .effect-text {
-    width: 70%;
-    height: 70%;
-  }
-  .popular {
-    margin: 8% 40% 0% 40%;
+  .zmenu {
+    display: none;
   }
   .popular div {
-    width: 190px;
-    height: 180px;
-    margin-bottom: 10%;
+    width: 35%;
+    height: 35%;
+    margin: 2% 0% 0% 3%;
   }
   .popular h3 {
     margin: 0% 0% 10% 25%;
@@ -150,7 +137,17 @@
     font-size: 80%;
   }
   .neuen {
-    margin: 0% 0% 0% 20%;
+    margin: 0% 0% 0% 0%;
+  }
+  .neuen div {
+    margin: 0% 0% 0% 0%;
+  }
+  .neuen div .effect-text {
+    width: 60%;
+    height: 60%;
+  }
+  .neuen div .effect-text figcaption p {
+    font-size: 10px;
   }
   .neuen .hover-text {
     margin-left: 3%;
@@ -164,16 +161,49 @@
   .menu1 span {
     display: none;
   }
-  .footer {
-    margin-top: 7%;
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
-  }
 }
 
 @media screen and (max-width: 600px) {
-  div {
-    width: 1px;
+  body {
+    display: block;
+  }
+  .logo {
+    width: 30%;
+    height: 30%;
+  }
+  .popular div {
+    width: 140px;
+  }
+  .popular h3 {
+    width: 40%;
+    font-size: 16px;
+  }
+  .neuen {
+    margin: 5% 0% 0% 5%;
+  }
+  .neuen h3 {
+    font-size: 16px;
+    margin-left: 33%;
+  }
+  .neuen div {
+    margin: 5% 0% 0% 10%;
+  }
+  .neuen div .effect-text {
+    width: 70%;
+    height: 70%;
+  }
+  .wrapp {
+    width: 320px;
+    height: 170px;
+    float: right;
+    margin: -40% 18% 0% 0%;
+  }
+}
+
+@media screen and (max-width: 425) {
+  .wrapp {
+    width: 100px;
+    height: 120px;
   }
 }
 /*# sourceMappingURL=media.css.map */

@@ -73,8 +73,17 @@
     height: 250px;
     margin: 3% 0% 2% 7%;
   }
+  .zmenu {
+    display: none;
+  }
+  h1 {
+    display: none;
+  }
   .menu1 span {
     display: none;
+  }
+  .product h3 {
+    width: 40%;
   }
 }
 /*# sourceMappingURL=media1.css.map */
