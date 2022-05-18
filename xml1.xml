@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<menu>
+    <comics>
+        <position1>.../im1.jpg</position1>
+        <position2>.../im2.jpg</position2>
+        <position3>.../im7.jpg</position3>
+        <position4>.../im8.jpg</position4>
+        <position5>.../im9.jpg</position5>
+        <position6> .../im10.jpg</position6>
+    </comics>
+    <manga>
+        <position1>.../m1.jpg</position1>
+        <position2>.../m2.jpg</position2>
+        <position3>.../m3.jpg</position3>
+        <position4>.../m4.jpg</position4>
+        <position5>.../m5.jpg</position5>
+        <position6>.../m6.jpg</position6>
+    </manga>
+    <enc>
+        <position1>.../en1.jpg</position1>
+        <position2>.../en3.jpg</position2>
+        <position3>.../en4.jpg</position3>
+        <position4>.../en5.jpg</position4>
+        <position5>.../en6.jpg</position5>
+        <position6>.../en9.jpg</position6>
+    </enc>
+</menu>

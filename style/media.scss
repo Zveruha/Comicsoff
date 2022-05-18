@@ -124,16 +124,16 @@ div{
 }
 @media screen and (max-width:970px){
    body{
-       grid-template-columns: 29% 42% 29%;
+       grid-template-columns: 15% 55% 30%;
    }
     .wrapp{
-        height: 150px;
-        width: 300px;
-        margin-left: 5% ;
+        height: 180px;
+        width: 400px;
+        margin-left: 20% ;
     }
     .logo{
-        width: 60%;
-        height: 60%;
+        width: 130%;
+        height: 130%;
     }
     h1{
         display: none;
@@ -142,13 +142,14 @@ div{
         display: none;
       }
 
-    .popular{  
+    .popular{ 
+         
      div
      {
-     
-    width: 35%;
-    height: 35%;
-    margin: 2% 0% 0% 3%;
+        display: inline-block;
+    width: 32%;
+    height: 32%;
+    margin: 0% 0% 0% 0%;
      }
    
     h3{
@@ -161,7 +162,7 @@ div{
 
     margin: 0% 0% 0% 0%;
     div{
-        margin: 0% 0% 0% 0%;
+        margin: 3% 0% 0% 0%;
         .effect-text{
             width: 60%;
             height: 60%;
@@ -178,7 +179,7 @@ div{
         display: inline-block;
     }
     h3{
-    margin-left: 28% ;
+    margin: 2% 0% 0% 30% ;
     font-size: 14px;
     width: 30%;
 }
@@ -187,6 +188,43 @@ div{
     display: none;
     
   }
+}
+
+@media screen and (max-width:830px) {
+
+    .wrapp{
+        height: 180px;
+        width: 250px;
+        margin-left: 15% ;
+    }
+
+   .neuen {
+   
+       margin: 0% 0% 0% 0%;
+       div{
+           margin: 3% 0% 0% 0%;
+           .effect-text{
+               width: 60%;
+               height: 60%;
+   
+               figcaption{
+                   p{
+                       font-size: 7px;
+                   }
+               }
+             }
+       }
+       .hover-text{
+           margin-left: 3%;
+           display: inline-block;
+       }
+       h3{
+       margin: 2% 0% 0% 30% ;
+       font-size: 14px;
+       width: 30%;
+   }
+   }
+    
 }
 
 @media screen and (max-width:600px){
@@ -204,6 +242,11 @@ div{
         h3{
             width: 40%;
             font-size: 16px;
+        }
+        figcaption{
+            p{
+                font-size: 9px;
+            }
         }
     }
 
@@ -232,10 +275,39 @@ div{
 
 }
 
-@media screen and(max-width:425) {
+@media screen and (max-width: 427px) {
 
+
+    .popular{
+        div{
+        width:200px;
+        height: 220px;
+        margin: 0% 0% 3% 17%;
+        }
+        h3{
+            width: 40%;
+            font-size: 16px;
+        }
+     
+    }
     .wrapp{
-        width: 100px;
+        width: 250px;
         height: 120px;
+        margin: -40% 10% 0% 0%;
+    }
+    .neuen {
+        margin: 5% 0% 0% 18%;
+        h3{
+
+        font-size: 16px;
+        margin-left: 23%;
+    }
+    div{
+        margin: 5% 0% 0% 10%;
+        .effect-text{
+            width: 80%;
+            height: 80%;
+          }
+    }
     }
 }
